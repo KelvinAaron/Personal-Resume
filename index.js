@@ -13,12 +13,12 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 });
 
 const sliderImages = [
-  "imgs/sc1.png",
-  "imgs/sc2.png",
-  "imgs/sc3.png",
-  "imgs/sc4.png",
-  "imgs/sc5.png",
-  "imgs/sc6.png"
+  "./imgs/sc1.png",
+  "./imgs/sc2.png",
+  "./imgs/sc3.png",
+  "./imgs/sc4.png",
+  "./imgs/sc5.png",
+  "./imgs/sc6.png"
 ];
 
 let slideIndex = 0;
