@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  box-sizing: border-box;
+}
+
+/* Laptop View */
+header {
+  background-color: #004d7a;
+  color: white;
+  text-align: center;
+  padding: 2em 1em;
+}
+
+nav {
+  margin-top: 2em;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 300px;
+  border: 5px solid #ffd700;
+}
+
+#menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+}
+
+#nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+#nav-links a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 2em 1em;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+  border-left: 10px solid #ff6f61;
+}
+
+.slider {
+  width: 100%;
+  max-width: 600px;
+  margin: 3em auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 1em;
+  padding: 0;
+  list-style: none;
+}
+
+.pill-list li {
+  background-color: #ffd700;
+  color: #000;
+  padding: 0.5em 1em;
+  border-radius: 999px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 2em;
+  background-color: #004d7a;
+  color: white;
+  font-size: 0.9em;
+}
+
+/* Tablet and Mobile view */
+@media (max-width: 768px) {
+  #menu-toggle {
+    display: block;
+  }
+
+  #nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #004d7a;
+    padding: 1em;
+  }
+
+  #nav-links.show {
+    display: flex;
+  }
+
+  .pill-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+  .card {
+    font-size: 12px;
+  }
+}
