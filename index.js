@@ -1,7 +1,9 @@
+// JavaScript to hide and display the navigation menu on mobile devices,
 document.getElementById("menu-toggle").addEventListener("click", () => {
   document.getElementById("nav-links").classList.toggle("show");
 });
 
+// Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener("click", function (e) {
     e.preventDefault();
@@ -12,6 +14,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
   });
 });
 
+// JavaScript for the image slider
 const sliderImages = [
   "./imgs/sc1.png",
   "./imgs/sc2.png",

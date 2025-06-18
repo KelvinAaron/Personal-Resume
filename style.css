@@ -1,3 +1,4 @@
+/* Apply to all layouts */
 body {
   margin: 0;
   padding: 0;
@@ -103,7 +104,7 @@ footer {
   font-size: 0.9em;
 }
 
-/* Tablet and Mobile view */
+/* Tablet view */
 @media (max-width: 768px) {
   #menu-toggle {
     display: block;
