@@ -3,8 +3,10 @@ A fully responsive, interactive, and stylish resume website built with HTML, CSS
 
 <br>
 🌐 Live Demo
-👉 View Resume Website
+
+👉 View Resume Website:
 https://kelvinaaron.github.io/Personal-Resume/
+
 
 📸 Features
 📱 Responsive Design: Works seamlessly on desktop, tablet, and mobile
