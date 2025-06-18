@@ -1,6 +1,6 @@
 💼 Personal Resume Website
 
-A fully responsive, interactive, and stylish resume website built with HTML, CSS, and JavaScript. This project showcases my skills, projects, and experience while demonstrating a strong grasp of front-end fundamentals—without relying on any CSS frameworks like Bootstrap.
+A fully responsive, interactive, and stylish resume website built with HTML, CSS, and JavaScript. This project showcases my skills, projects, and experience while demonstrating a strong grasp of front-end fundamentals, without relying on any CSS frameworks like Bootstrap.
 
 <br>
 🌐 Live Demo
